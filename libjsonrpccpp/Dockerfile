@@ -1,8 +1,9 @@
-# ~~~~ libjson-rpc-cpp ~~~~ #
-# ~~~~~~~~ vaibhav ~~~~~~~~ #
+# ~~~~ File Type : Docker file ~~~~~~~~~~~ #
+# ~~~~~~ Package : libjson-rpc-cpp ~~~~~~~ #
+# ~~~~~~~ Author : Vaibhav Vaingankar ~~~~ #
 
 FROM ubuntu:15.10
-MAINTAINER vaibhav vaingankar
+MAINTAINER Vaibhav Vaingankar (vaibhav_vaingankr@persistent.com)
 RUN apt-get update && apt-get install -y \
 build-essential \
 wget \

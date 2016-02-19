@@ -1,8 +1,9 @@
-# ~~~~ Docker file ~~~~ #
-# ~~~~~~ Doxygen ~~~~~~ #
+# ~~~~ File Type : Docker file ~~~~~~~~~~~ #
+# ~~~~~~ Package : Doxygen ~~~~~~~~~~~~~~~ #
+# ~~~~~~~ Author : Vaibhav Vaingankar ~~~~ #
 
 FROM ubuntu:15.10
-MAINTAINER vaibhav
+MAINTAINER Vaibhav Vaingankar (vaibhav_vaingankar@persistent.com)
 RUN apt-get update && apt-get install -y \
 git \
 cmake \
