@@ -1,0 +1,8 @@
+Following are the pull commands to pull images
+1. GCC
+   docker pull vaibhi9/gcc
+
+2. LIBJSON-RPC-CPP
+   docker pull vaibhi9/libjsonrpccpp
+
+3. DOXYGEN
